@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .telhado {
+            border-left: 200px solid transparent;
+            border-right: 200px solid transparent;
+            border-bottom: 200px solid pink;
+            width: 0;
+            height: 0;
+
+        }
+
+        .base {
+            border: 1px solid;
+            width: 400px;
+            height: 200px;
+            background-color: pink;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+
+        }
+
+        .porta {
+            width: 50px;
+            height: 100px;
+            background-color: fuchsia;
+            border: 1px solid;
+
+        }
+
+        .janela {
+            width: 50px;
+            height: 50px;
+            background-color: fuchsia;
+            border: 1px solid black;
+
+        }
+
+        .maçaneta {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: black;
+            margin-top: 50px;
+        }
+
+        .chao {
+            width: 100%;
+            height: 50%;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; align-items: center; flex-direction: column;">
+        <div class="telhado">
+        </div>
+        <div class="base">
+            <div style="width: 80%; display: flex; justify-content: space-between;">
+                <div class="janela"></div>
+                <div class="janela"></div>
+            </div>
+            <div class="porta">
+                <div class="maçaneta">
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="chao">
+
+    </div>
+
+</body>
+
+</html>
